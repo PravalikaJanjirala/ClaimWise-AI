@@ -1,0 +1,32 @@
+{
+  "cases": 40,
+  "seed": 21,
+  "extraction_field_accuracy_pct": {
+    "all": 98.2,
+    "clean_scans": 99.1,
+    "degraded_scans": 96.4
+  },
+  "mismatch_recall_pct": 100.0,
+  "mismatch_precision_strict_pct": 100.0,
+  "mismatch_precision_incl_review_prompts_pct": 75.0,
+  "clean_claims_with_any_flag_strict_pct": 0.0,
+  "clean_claims_with_any_flag_incl_review_pct": 30.0,
+  "duplicate_file": {
+    "precision_pct": 100.0,
+    "recall_pct": 100.0
+  },
+  "similar_claim": {
+    "precision_pct": 100.0,
+    "recall_pct": 100.0
+  },
+  "routing_lane_correct_pct": 92.5,
+  "flags_with_explanation_and_action_pct": 100.0,
+  "flags_with_structured_field_evidence_pct": 91.9,
+  "processing_time_ms": {
+    "median": 3155,
+    "p95": 3703,
+    "mean": 3234
+  },
+  "avg_low_confidence_prompts_per_claim": 0.35,
+  "claims_auto_approved_or_rejected": 0
+}

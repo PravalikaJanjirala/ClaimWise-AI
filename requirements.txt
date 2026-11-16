@@ -1,0 +1,12 @@
+streamlit>=1.30
+pillow>=10.0
+numpy>=1.24
+pytesseract>=0.3.10
+pdfplumber>=0.10
+reportlab>=4.0
+pandas>=2.0
+requests>=2.31
+# System dependency (not a pip package): the Tesseract OCR engine
+#   Ubuntu/Debian: sudo apt install tesseract-ocr
+#   macOS:         brew install tesseract
+#   Windows:       https://github.com/UB-Mannheim/tesseract/wiki (add to PATH)

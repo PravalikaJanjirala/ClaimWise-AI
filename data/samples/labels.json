@@ -1,0 +1,536 @@
+{
+ "S001": {
+  "mutation": "clean",
+  "quality": "clean",
+  "expected_flags": [],
+  "expected_lane": "FAST_LANE",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Swathi Naidu",
+    "policy_number": "POL-MTR-2025-001861",
+    "vehicle_reg_no": "KA34AR5080",
+    "driving_licence_no": "KA3420053514094",
+    "incident_date": "2026-02-17",
+    "incident_location": "Banjara Hills, Hyderabad",
+    "claimed_amount": 31500.0,
+    "repair_estimate": 31500.0
+   },
+   "rc": {
+    "owner_name": "Swathi Naidu",
+    "vehicle_reg_no": "KA34AR5080",
+    "chassis_no": "DLH07S1GSAP3UM1LE",
+    "make_model": "Hyundai i20 Sportz",
+    "registration_date": "2023-12-14"
+   },
+   "driving_licence": {
+    "holder_name": "Swathi Naidu",
+    "dl_no": "KA3420053514094",
+    "dob": "1997-03-10",
+    "valid_upto": "2030-09-28",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-001861",
+    "insured_name": "Swathi Naidu",
+    "vehicle_reg_no": "KA34AR5080",
+    "chassis_no": "DLH07S1GSAP3UM1LE",
+    "policy_start": "2025-06-05",
+    "policy_end": "2026-06-04",
+    "idv": 380000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S002": {
+  "mutation": "clean",
+  "quality": "degraded",
+  "expected_flags": [],
+  "expected_lane": "FAST_LANE",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Suresh Singh",
+    "policy_number": "POL-MTR-2025-995329",
+    "vehicle_reg_no": "KA02MP3719",
+    "driving_licence_no": "KA0220166782929",
+    "incident_date": "2025-10-23",
+    "incident_location": "Madhapur, Hyderabad",
+    "claimed_amount": 17500.0,
+    "repair_estimate": 17500.0
+   },
+   "rc": {
+    "owner_name": "Suresh Singh",
+    "vehicle_reg_no": "KA02MP3719",
+    "chassis_no": "KTEYWAYEWZW7XM77M",
+    "make_model": "Kia Seltos HTK",
+    "registration_date": "2020-05-28"
+   },
+   "driving_licence": {
+    "holder_name": "Suresh Singh",
+    "dl_no": "KA0220166782929",
+    "dob": "1983-06-13",
+    "valid_upto": "2033-05-23",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-995329",
+    "insured_name": "Suresh Singh",
+    "vehicle_reg_no": "KA02MP3719",
+    "chassis_no": "KTEYWAYEWZW7XM77M",
+    "policy_start": "2025-05-15",
+    "policy_end": "2026-05-14",
+    "idv": 900000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S003": {
+  "mutation": "reg_mismatch",
+  "quality": "clean",
+  "expected_flags": [
+   "REG_CLAIM_POLICY",
+   "REG_CLAIM_RC"
+  ],
+  "expected_lane": "EXCEPTION_QUEUE",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Divya Das",
+    "policy_number": "POL-MTR-2025-033372",
+    "vehicle_reg_no": "KA03PC1536",
+    "driving_licence_no": "KA0320129964998",
+    "incident_date": "2026-03-20",
+    "incident_location": "Secunderabad",
+    "claimed_amount": 66500.0,
+    "repair_estimate": 66500.0
+   },
+   "rc": {
+    "owner_name": "Divya Das",
+    "vehicle_reg_no": "KA03PC4415",
+    "chassis_no": "Y90KYUFWXWMFKW7LD",
+    "make_model": "Tata Nexon XZ",
+    "registration_date": "2022-04-14"
+   },
+   "driving_licence": {
+    "holder_name": "Divya Das",
+    "dl_no": "KA0320129964998",
+    "dob": "1990-07-05",
+    "valid_upto": "2027-12-08",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-033372",
+    "insured_name": "Divya Das",
+    "vehicle_reg_no": "KA03PC4415",
+    "chassis_no": "Y90KYUFWXWMFKW7LD",
+    "policy_start": "2025-05-21",
+    "policy_end": "2026-05-20",
+    "idv": 890000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S004": {
+  "mutation": "name_mismatch",
+  "quality": "degraded",
+  "expected_flags": [
+   "NAME_CLAIM_DL",
+   "NAME_CLAIM_POLICY",
+   "NAME_CLAIM_RC"
+  ],
+  "expected_lane": "EXCEPTION_QUEUE",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Harish Chowdary",
+    "policy_number": "POL-MTR-2025-515754",
+    "vehicle_reg_no": "AP28ME1962",
+    "driving_licence_no": "AP2820138643267",
+    "incident_date": "2026-03-27",
+    "incident_location": "Banjara Hills, Hyderabad",
+    "claimed_amount": 26000.0,
+    "repair_estimate": 26000.0
+   },
+   "rc": {
+    "owner_name": "Sneha Sharma",
+    "vehicle_reg_no": "AP28ME1962",
+    "chassis_no": "3VK6L68X7UV72KH1M",
+    "make_model": "Kia Seltos HTK",
+    "registration_date": "2020-04-08"
+   },
+   "driving_licence": {
+    "holder_name": "Sneha Sharma",
+    "dl_no": "AP2820138643267",
+    "dob": "1986-06-03",
+    "valid_upto": "2031-04-26",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-515754",
+    "insured_name": "Sneha Sharma",
+    "vehicle_reg_no": "AP28ME1962",
+    "chassis_no": "3VK6L68X7UV72KH1M",
+    "policy_start": "2025-09-05",
+    "policy_end": "2026-09-04",
+    "idv": 415000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S005": {
+  "mutation": "chassis_mismatch",
+  "quality": "clean",
+  "expected_flags": [
+   "CARRIER_RECORD",
+   "CHASSIS_RC_POLICY"
+  ],
+  "expected_lane": "EXCEPTION_QUEUE",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Pooja Joshi",
+    "policy_number": "POL-MTR-2025-765831",
+    "vehicle_reg_no": "KA21YJ8584",
+    "driving_licence_no": "KA2120182882774",
+    "incident_date": "2025-09-20",
+    "incident_location": "LB Nagar, Hyderabad",
+    "claimed_amount": 100500.0,
+    "repair_estimate": 100500.0
+   },
+   "rc": {
+    "owner_name": "Pooja Joshi",
+    "vehicle_reg_no": "KA21YJ8584",
+    "chassis_no": "V9ZZUZ3ZM50YKLN07",
+    "make_model": "Kia Seltos HTK",
+    "registration_date": "2022-02-01"
+   },
+   "driving_licence": {
+    "holder_name": "Pooja Joshi",
+    "dl_no": "KA2120182882774",
+    "dob": "1991-07-10",
+    "valid_upto": "2033-10-22",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-765831",
+    "insured_name": "Pooja Joshi",
+    "vehicle_reg_no": "KA21YJ8584",
+    "chassis_no": "V9ZZUZ3ZMF0YKANG7",
+    "policy_start": "2025-07-12",
+    "policy_end": "2026-07-11",
+    "idv": 760000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S006": {
+  "mutation": "policy_expired",
+  "quality": "degraded",
+  "expected_flags": [
+   "POLICY_PERIOD"
+  ],
+  "expected_lane": "MANUAL_REVIEW",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Sita Iyer",
+    "policy_number": "POL-MTR-2025-392041",
+    "vehicle_reg_no": "AP11BE2815",
+    "driving_licence_no": "AP1120069226343",
+    "incident_date": "2026-09-14",
+    "incident_location": "LB Nagar, Hyderabad",
+    "claimed_amount": 85000.0,
+    "repair_estimate": 85000.0
+   },
+   "rc": {
+    "owner_name": "Sita Iyer",
+    "vehicle_reg_no": "AP11BE2815",
+    "chassis_no": "XM7NC36Z1EPS0AZ2U",
+    "make_model": "Tata Nexon XZ",
+    "registration_date": "2024-07-15"
+   },
+   "driving_licence": {
+    "holder_name": "Sita Iyer",
+    "dl_no": "AP1120069226343",
+    "dob": "1979-09-17",
+    "valid_upto": "2030-10-04",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-392041",
+    "insured_name": "Sita Iyer",
+    "vehicle_reg_no": "AP11BE2815",
+    "chassis_no": "XM7NC36Z1EPS0AZ2U",
+    "policy_start": "2025-08-13",
+    "policy_end": "2026-08-12",
+    "idv": 740000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S007": {
+  "mutation": "amount_exceeds_idv",
+  "quality": "clean",
+  "expected_flags": [
+   "AMOUNT_VS_IDV"
+  ],
+  "expected_lane": "MANUAL_REVIEW",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Ramesh Singh",
+    "policy_number": "POL-MTR-2025-515642",
+    "vehicle_reg_no": "TS21VW9837",
+    "driving_licence_no": "TS2120142404031",
+    "incident_date": "2025-11-15",
+    "incident_location": "Kukatpally, Hyderabad",
+    "claimed_amount": 929000.0,
+    "repair_estimate": 929000.0
+   },
+   "rc": {
+    "owner_name": "Ramesh Singh",
+    "vehicle_reg_no": "TS21VW9837",
+    "chassis_no": "KX144R8V711LTW8T3",
+    "make_model": "Maruti Swift VXI",
+    "registration_date": "2024-02-12"
+   },
+   "driving_licence": {
+    "holder_name": "Ramesh Singh",
+    "dl_no": "TS2120142404031",
+    "dob": "1991-10-15",
+    "valid_upto": "2029-09-20",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-515642",
+    "insured_name": "Ramesh Singh",
+    "vehicle_reg_no": "TS21VW9837",
+    "chassis_no": "KX144R8V711LTW8T3",
+    "policy_start": "2025-05-06",
+    "policy_end": "2026-05-05",
+    "idv": 900000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S008": {
+  "mutation": "estimate_diff",
+  "quality": "degraded",
+  "expected_flags": [
+   "ESTIMATE_VS_CLAIM"
+  ],
+  "expected_lane": "EXCEPTION_QUEUE",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Vikram Rao",
+    "policy_number": "POL-MTR-2025-477745",
+    "vehicle_reg_no": "MH03HS5385",
+    "driving_licence_no": "MH0320089153519",
+    "incident_date": "2025-06-10",
+    "incident_location": "Gachibowli, Hyderabad",
+    "claimed_amount": 106900.0,
+    "repair_estimate": 85500.0
+   },
+   "rc": {
+    "owner_name": "Vikram Rao",
+    "vehicle_reg_no": "MH03HS5385",
+    "chassis_no": "KVV87HBJWVYVB6Z0J",
+    "make_model": "Maruti Swift VXI",
+    "registration_date": "2022-05-27"
+   },
+   "driving_licence": {
+    "holder_name": "Vikram Rao",
+    "dl_no": "MH0320089153519",
+    "dob": "1994-07-20",
+    "valid_upto": "2032-12-27",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-477745",
+    "insured_name": "Vikram Rao",
+    "vehicle_reg_no": "MH03HS5385",
+    "chassis_no": "KVV87HBJWVYVB6Z0J",
+    "policy_start": "2025-05-10",
+    "policy_end": "2026-05-09",
+    "idv": 460000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S009": {
+  "mutation": "dl_expired",
+  "quality": "clean",
+  "expected_flags": [
+   "DL_VALIDITY"
+  ],
+  "expected_lane": "MANUAL_REVIEW",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Sneha Verma",
+    "policy_number": "POL-MTR-2025-229881",
+    "vehicle_reg_no": "KA31KE3710",
+    "driving_licence_no": "KA3120082258647",
+    "incident_date": "2025-08-14",
+    "incident_location": "Secunderabad",
+    "claimed_amount": 30500.0,
+    "repair_estimate": 30500.0
+   },
+   "rc": {
+    "owner_name": "Sneha Verma",
+    "vehicle_reg_no": "KA31KE3710",
+    "chassis_no": "78YK4DERUFEBY4E28",
+    "make_model": "Mahindra XUV300 W6",
+    "registration_date": "2022-05-13"
+   },
+   "driving_licence": {
+    "holder_name": "Sneha Verma",
+    "dl_no": "KA3120082258647",
+    "dob": "1974-03-20",
+    "valid_upto": "2025-04-01",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-229881",
+    "insured_name": "Sneha Verma",
+    "vehicle_reg_no": "KA31KE3710",
+    "chassis_no": "78YK4DERUFEBY4E28",
+    "policy_start": "2025-05-13",
+    "policy_end": "2026-05-12",
+    "idv": 835000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S010": {
+  "mutation": "missing_doc",
+  "quality": "degraded",
+  "expected_flags": [
+   "DOC_MISSING_DRIVING_LICENCE"
+  ],
+  "expected_lane": "MANUAL_REVIEW",
+  "base": null,
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Rahul Nair",
+    "policy_number": "POL-MTR-2025-266537",
+    "vehicle_reg_no": "TS18BV2939",
+    "driving_licence_no": "TS1820148673748",
+    "incident_date": "2025-09-07",
+    "incident_location": "Gachibowli, Hyderabad",
+    "claimed_amount": 45000.0,
+    "repair_estimate": 45000.0
+   },
+   "rc": {
+    "owner_name": "Rahul Nair",
+    "vehicle_reg_no": "TS18BV2939",
+    "chassis_no": "2JA4FX88Z0DJVK9VR",
+    "make_model": "Hyundai i20 Sportz",
+    "registration_date": "2020-02-16"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-266537",
+    "insured_name": "Rahul Nair",
+    "vehicle_reg_no": "TS18BV2939",
+    "chassis_no": "2JA4FX88Z0DJVK9VR",
+    "policy_start": "2025-07-07",
+    "policy_end": "2026-07-06",
+    "idv": 650000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S011": {
+  "mutation": "duplicate_file",
+  "quality": "n/a",
+  "expected_flags": [
+   "DUP_FILE",
+   "SIMILAR_CLAIM"
+  ],
+  "expected_lane": "MANUAL_REVIEW",
+  "base": "S001",
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Swathi Naidu",
+    "policy_number": "POL-MTR-2025-001861",
+    "vehicle_reg_no": "KA34AR5080",
+    "driving_licence_no": "KA3420053514094",
+    "incident_date": "2026-02-17",
+    "incident_location": "Banjara Hills, Hyderabad",
+    "claimed_amount": 31500.0,
+    "repair_estimate": 31500.0
+   },
+   "rc": {
+    "owner_name": "Swathi Naidu",
+    "vehicle_reg_no": "KA34AR5080",
+    "chassis_no": "DLH07S1GSAP3UM1LE",
+    "make_model": "Hyundai i20 Sportz",
+    "registration_date": "2023-12-14"
+   },
+   "driving_licence": {
+    "holder_name": "Swathi Naidu",
+    "dl_no": "KA3420053514094",
+    "dob": "1997-03-10",
+    "valid_upto": "2030-09-28",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-001861",
+    "insured_name": "Swathi Naidu",
+    "vehicle_reg_no": "KA34AR5080",
+    "chassis_no": "DLH07S1GSAP3UM1LE",
+    "policy_start": "2025-06-05",
+    "policy_end": "2026-06-04",
+    "idv": 380000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ },
+ "S012": {
+  "mutation": "similar_claim",
+  "quality": "degraded",
+  "expected_flags": [
+   "SIMILAR_CLAIM"
+  ],
+  "expected_lane": "EXCEPTION_QUEUE",
+  "base": "S002",
+  "truth": {
+   "claim_form": {
+    "claimant_name": "Suresh Singh",
+    "policy_number": "POL-MTR-2025-995329",
+    "vehicle_reg_no": "KA02MP3719",
+    "driving_licence_no": "KA0220166782929",
+    "incident_date": "2025-10-22",
+    "incident_location": "Madhapur, Hyderabad",
+    "claimed_amount": 82500.0,
+    "repair_estimate": 82500.0
+   },
+   "rc": {
+    "owner_name": "Suresh Singh",
+    "vehicle_reg_no": "KA02MP3719",
+    "chassis_no": "KTEYWAYEWZW7XM77M",
+    "make_model": "Kia Seltos HTK",
+    "registration_date": "2020-05-28"
+   },
+   "driving_licence": {
+    "holder_name": "Suresh Singh",
+    "dl_no": "KA0220166782929",
+    "dob": "1983-06-13",
+    "valid_upto": "2033-05-23",
+    "vehicle_class": "LMV"
+   },
+   "policy": {
+    "policy_number": "POL-MTR-2025-995329",
+    "insured_name": "Suresh Singh",
+    "vehicle_reg_no": "KA02MP3719",
+    "chassis_no": "KTEYWAYEWZW7XM77M",
+    "policy_start": "2025-05-15",
+    "policy_end": "2026-05-14",
+    "idv": 900000.0,
+    "coverage_type": "COMPREHENSIVE"
+   }
+  }
+ }
+}

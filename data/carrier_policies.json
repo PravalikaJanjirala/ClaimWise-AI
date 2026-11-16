@@ -1,0 +1,112 @@
+{
+ "POL-MTR-2025-001861": {
+  "insured_name": "Swathi Naidu",
+  "vehicle_reg_no": "KA34AR5080",
+  "chassis_no": "DLH07S1GSAP3UM1LE",
+  "policy_start": "2025-06-05",
+  "policy_end": "2026-06-04",
+  "idv": 380000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+ "POL-MTR-2025-995329": {
+  "insured_name": "Suresh Singh",
+  "vehicle_reg_no": "KA02MP3719",
+  "chassis_no": "KTEYWAYEWZW7XM77M",
+  "policy_start": "2025-05-15",
+  "policy_end": "2026-05-14",
+  "idv": 900000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+ "POL-MTR-2025-033372": {
+  "insured_name": "Divya Das",
+  "vehicle_reg_no": "KA03PC4415",
+  "chassis_no": "Y90KYUFWXWMFKW7LD",
+  "policy_start": "2025-05-21",
+  "policy_end": "2026-05-20",
+  "idv": 890000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+ "POL-MTR-2025-515754": {
+  "insured_name": "Sneha Sharma",
+  "vehicle_reg_no": "AP28ME1962",
+  "chassis_no": "3VK6L68X7UV72KH1M",
+  "policy_start": "2025-09-05",
+  "policy_end": "2026-09-04",
+  "idv": 415000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+ "POL-MTR-2025-765831": {
+  "insured_name": "Pooja Joshi",
+  "vehicle_reg_no": "KA21YJ8584",
+  "chassis_no": "V9ZZUZ3ZM50YKLN07",
+  "policy_start": "2025-07-12",
+  "policy_end": "2026-07-11",
+  "idv": 760000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+ "POL-MTR-2025-392041": {
+  "insured_name": "Sita Iyer",
+  "vehicle_reg_no": "AP11BE2815",
+  "chassis_no": "XM7NC36Z1EPS0AZ2U",
+  "policy_start": "2025-08-13",
+  "policy_end": "2026-08-12",
+  "idv": 740000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+ "POL-MTR-2025-515642": {
+  "insured_name": "Ramesh Singh",
+  "vehicle_reg_no": "TS21VW9837",
+  "chassis_no": "KX144R8V711LTW8T3",
+  "policy_start": "2025-05-06",
+  "policy_end": "2026-05-05",
+  "idv": 900000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+ "POL-MTR-2025-477745": {
+  "insured_name": "Vikram Rao",
+  "vehicle_reg_no": "MH03HS5385",
+  "chassis_no": "KVV87HBJWVYVB6Z0J",
+  "policy_start": "2025-05-10",
+  "policy_end": "2026-05-09",
+  "idv": 460000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+ "POL-MTR-2025-229881": {
+  "insured_name": "Sneha Verma",
+  "vehicle_reg_no": "KA31KE3710",
+  "chassis_no": "78YK4DERUFEBY4E28",
+  "policy_start": "2025-05-13",
+  "policy_end": "2026-05-12",
+  "idv": 835000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+ "POL-MTR-2025-266537": {
+  "insured_name": "Rahul Nair",
+  "vehicle_reg_no": "TS18BV2939",
+  "chassis_no": "2JA4FX88Z0DJVK9VR",
+  "policy_start": "2025-07-07",
+  "policy_end": "2026-07-06",
+  "idv": 650000.0,
+  "coverage_type": "COMPREHENSIVE",
+  "status": "ACTIVE"
+ },
+  "POL-DEMO-784512": {
+    "insured_name": "Aarav Sharma",
+    "vehicle_reg_no": "TS09AB1234",
+    "chassis_no": "MA3EJKD1S00DEMO01",
+    "policy_start": "2026-06-01",
+    "policy_end": "2027-05-31",
+    "idv": 520000.0,
+    "coverage_type": "COMPREHENSIVE",
+    "status": "ACTIVE"
+  }
+}
